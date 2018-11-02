@@ -1,2 +1,2 @@
 # ifIT
-just a contact page
+just a simple contact page
