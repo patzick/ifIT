@@ -20,4 +20,9 @@ export default {
   font-family: Lato-Light
   font-size: 2rem
   text-align: end
+
+@media screen and (min-width: 900px)
+    .main-content
+      font-size: 4rem
+      margin: 3rem
 </style>
