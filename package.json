@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "predeploy": "build",
+    "predeploy": "npm run build",
     "deploy": "firebase deploy",
     "lint": "vue-cli-service lint"
   },
