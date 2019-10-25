@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <head-bar />
-    <router-view />
+    <Home></Home>
   </div>
 </template>
 
 <script>
-import HeadBar from "./components/HeadBar.vue";
+import Home from "./views/Home.vue";
 
 export default {
   components: {
-    HeadBar
+    Home
   }
 };
 </script>
