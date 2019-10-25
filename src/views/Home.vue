@@ -1,20 +1,29 @@
 <template>
-  <div>
-    <main-content> Development done right. </main-content>
-    <social-links />
+  <div class="home">
+    <main-content></main-content>
+    <work-section></work-section>
+    <contact-section />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import MainContent from "@/components/MainContent.vue";
-import SocialLinks from "@/components/SocialLinks.vue";
+import ContactSection from "@/components/ContactSection.vue";
+import WorkSection from "@/components/WorkSection.vue";
 
 export default {
   name: "home",
   components: {
     MainContent,
-    SocialLinks
+    WorkSection,
+    ContactSection
   }
 };
 </script>
+<style lang="scss" scoped>
+.home {
+  display: flex;
+  align-items: center;
+}
+</style>
