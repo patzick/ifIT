@@ -16,10 +16,14 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2a3d45;
+  background-color: #d9d9d9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 body {
