@@ -2,13 +2,13 @@
   <div class="work-section">
     <p class="work-section__title">
       Senior frontend developer @
-      <a class="work-section__title--link" href="https://www.divante.com">
+      <a class="work-section__title--link" href="https://www.divante.com" target="_blank">
         Divante</a
       >
     </p>
     <p class="work-section__title">
       Core member @
-      <a href="https://www.vuestorefront.io/" class="work-section__title--link"
+      <a href="https://www.vuestorefront.io/" class="work-section__title--link" target="_blank"
         >VueStorefront</a
       >
     </p>
