@@ -24,6 +24,7 @@ export default {
   height: 100vh;
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 body {

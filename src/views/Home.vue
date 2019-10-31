@@ -24,6 +24,7 @@ export default {
 <style lang="scss" scoped>
 .home {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 </style>
