@@ -1,4 +1,4 @@
-name: CI
+name: Merger
 
 on: [push]
 
@@ -8,14 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-  
-  test:
-    runs-on: ubuntu-latest
-
-    steps:
     - uses: patzick/merger@master
-    - name: Run test action
-      run: echo Hello, world!
+      with:
+        milliseconds: 666
