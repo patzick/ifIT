@@ -1,0 +1,13 @@
+name: Merger
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: patzick/merger@master
+      with:
+        milliseconds: 666
